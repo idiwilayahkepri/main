@@ -43,6 +43,31 @@ body {
     color: #ffffff;
     border: none;
 }
+/* Masonry Layout Murni dengan CSS (Tanpa Library JS Eksternal) */
+#masonry-grid {
+    display: block;
+    column-count: 1;
+    column-gap: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    #masonry-grid {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    #masonry-grid {
+        column-count: 3;
+    }
+}
+
+.masonry-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
+}
 
 .btn-idi-primary:hover {
     background-color: #0a2b44;
