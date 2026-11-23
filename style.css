@@ -1,0 +1,50 @@
+:root {
+    --idi-primary: #0f3d5e;
+    --idi-accent: #0d9488;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+.navbar-idi {
+    background-color: var(--idi-primary);
+}
+
+.hero-idi {
+    background: linear-gradient(135deg, rgba(15, 61, 94, 0.94), rgba(13, 148, 136, 0.88)),
+                url('https://unsplash.com') center/cover no-repeat;
+    color: white;
+    padding: 4.5rem 0;
+}
+
+.idi-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    background: #ffffff;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.idi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(15, 61, 94, 0.12);
+}
+
+.badge-kategori {
+    background-color: #ccfbf1;
+    color: #0f766e;
+    font-weight: 600;
+}
+
+.btn-idi-primary {
+    background-color: var(--idi-primary);
+    color: #ffffff;
+    border: none;
+}
+
+.btn-idi-primary:hover {
+    background-color: #0a2b44;
+    color: #ffffff;
+}
