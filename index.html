@@ -7,9 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="Abdul Gamal">
     <meta name="generator" content="Gml Project 1.0">
-    <meta name="title" content="IDI BATAM"/>
+    <meta name="title" content="IDI WILAYAH KEPRI"/>
 	<meta name="description" content="Alamat: Ruko Trafalgar No. 11, Taman Dutamas, Batam, Telp./Fax. (0778) 468808" />
-    <title>IDI BATAM</title>
+    <title>IDI WILAYAH KEPRI</title>
     <link rel='icon' id='icon'/>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,14 +18,15 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <style>
         :root {
-            --primary-color: #0f5132;
+            --primary-color: #0f3d5e;
             --secondary-color: #198754;
             --light-bg: #f8f9fa;
         }
 		
         body {
-            background-color: var(--light-bg);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
         }
         .bg-idi {
             background-color: #0b6623 !important; /* Hijau Medis IDI */
@@ -44,7 +45,6 @@
         .navbar {
             background-color: var(--primary-color) !important;
 			z-index: 1050;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         .navbar-brand,.dropdown-item {
             color: #ffffff !important;
@@ -280,7 +280,7 @@
     <!-- NAVBAR RESPONSIF DENGAN DROPDOWN -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-idi sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html"><img id="logo" src="https://lh3.googleusercontent.com/d/1o_mDEAegaq8u7vXB6q8wSxa3nShI7T5C?authuser=1/view" style="width: 40px; height: 40px;"> IDI BATAM</a>
+            <a class="navbar-brand fw-bold" href="index.html"><img id="logo" src="https://lh3.googleusercontent.com/d/1o_mDEAegaq8u7vXB6q8wSxa3nShI7T5C?authuser=1/view" style="width: 40px; height: 40px;"> IDI WILAYAH KEPRI</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -342,75 +342,72 @@
         </div>
     </nav>
 
-    <!-- HERO HEADER -->
-    <!-- HERO SECTION DENGAN LOGO RESPONSIF (MOBILE DI ATAS, DESKTOP DI SAMPING) -->
-<header class="hero-section py-5 mb-4 text-white" style="background: linear-gradient(135deg, #0b6623 0%, #064015 100%);">
-    <div class="container">
-        <!-- Menggunakan Flexbox: Kolom vertikal pada mobile, Baris horizontal pada desktop (md) -->
-        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 gap-md-4">
-            
-            <!-- 1. Kontainer Logo: Otomatis di atas (order-1) pada mobile/desktop -->
-            <div class="hero-logo-box order-1">
-                <!-- Ilustrasi Logo Medis IDI Bulat Profesional -->
-                <img src="https://lh3.googleusercontent.com/d/1o_mDEAegaq8u7vXB6q8wSxa3nShI7T5C?authuser=1/view" 
-                     alt="Logo IDI Batam" 
-                     class="img-fluid bg-white rounded-circle p-0 shadow" 
-                     style="width: 100px; height: 100px; object-fit: contain;">
-            </div>
-            
-            <!-- 2. Kontainer Teks Utama: Otomatis di bawah logo (order-2) pada mobile -->
-            <div class="hero-text-box order-2 text-center text-md-start">
-                <h2 class="display-6 fw-bold mb-1" style="letter-spacing: 0.5px;">
-                    IKATAN DOKTER INDONESIA
-                </h2>
-                <p class="lead mb-0 text-white-50 fw-normal" style="font-size: 1.1rem;">
-                    Profesional, Integritas, dan Mengabdi untuk Masyarakat
-                </p>
-            </div>
 
+<header class="hero-section py-5 mb-4 text-white" style="background: linear-gradient(135deg, rgba(15, 61, 94, 0.94), rgba(13, 148, 136, 0.88)),
+                url('https://unsplash.com') center/cover no-repeat;
+    color: white;
+    padding: 4.5rem 0;">
+        <div class="container">
+            <div class="col-lg-8">
+                <span class="badge bg-info text-dark mb-3 px-3 py-2 rounded-pill fw-semibold">
+                    Satu IDI Terus Maju • Provinsi Kepulauan Riau
+                </span>
+                <h1 class="display-5 fw-bold mb-3">IDI Wilayah Kepulauan Riau</h1>
+                <p class="lead mb-4 text-light opacity-90">
+                    Pusat informasi organisasi, pengembangan keprofesian berkelanjutan (P2KB), layanan rekomendasi anggota, dan sinergi kesehatan di seluruh wilayah Kepulauan Riau.
+                </p>
+                <a href="#informasi" class="btn btn-light text-dark fw-semibold px-4 rounded-pill">
+                    Lihat Informasi Terbaru <i class="bi bi-arrow-down-short"></i>
+                </a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
 
     <main class="container">
         <!-- SECTION 1: KATA PENGANTAR (col-md-6) & APPLICATION DRAWER (col-md-6) -->
         <section class="row g-4 mb-5">
             <!-- Kata Pengantar Ketua -->
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="card h-100 border-0 shadow-sm p-4 rounded-4">
                     <div class="card-body">
 <!-- KATA PENGANTAR BRANDING RESPONSIF (MOBILE DI ATAS, DESKTOP DI SAMPING) -->
 <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start mb-4">
     
-    <!-- 1. FOTO KETUA: Otomatis di atas pada mobile, otomatis ada margin-bottom (mb-3) sebelum mendeteksi desktop (mb-md-0) -->
+   
     <div class="rounded-circle bg-secondary-subtle p-1 mb-3 mb-md-0 me-0 me-md-3 shadow-sm" style="width: 80px; height: 80px; overflow: hidden; flex-shrink: 0;">
-        <img src="https://lh3.googleusercontent.com/d/18tKXLBmljI-G1z_-76EPWwVMZnTMStBe" 
-             alt="Foto Ketua IDI Batam" 
+        <img src="https://lh3.googleusercontent.com/d/1B6tYWkGV2mZ7uijSadmbUJYGhhR6nBof" 
+             alt="Foto Ketua IDI wilayah Kepulauan Riau" 
              class="rounded-circle img-fluid" 
              style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     
     <!-- 2. TEKS JABATAN: Otomatis berpusat di tengah pada mobile, rata kiri di desktop -->
     <div>
-        <h5 class="card-title fw-bold mb-0 text-success" style="font-size: 1.2rem;">Kata Pengantar</h5>
-        <p class="text-muted small mb-0 fw-semibold">Ketua IDI Cabang Kota Batam</p>
+        <h6 class="card-title fw-bold mb-0 text-info" style="font-size: 1.2rem;">Kata Pengantar</h6>
+        <p class="text-muted small mb-0 fw-semibold">Ketua IDI Wilayah KEPRI</p>
+                        <h4 class="fw-bold mb-3">Bersinergi Membangun Kesehatan Masyarakat Kepulauan Riau</h4>
     </div>
 
 </div>
-
-
-                        <p class="card-text text-muted justify-content-center" style="text-align: justify; line-height: 1.7;">
-                            "Selamat datang di portal resmi IDI Cabang Batam. Melalui platform digital ini, kami berkomitmen untuk meningkatkan efisiensi layanan administrasi profesi bagi seluruh sejawat dokter, serta menyajikan transparansi informasi kesehatan, edukasi medis berkelanjutan berkelanjutan (CPD), demi pengabdian kesehatan masyarakat Batam yang lebih prima."
+                        
+                        <p class="text-muted small mb-2">
+                            <em>Assalamu’alaikum Warahmatullahi Wabarakatuh, Salam Satu IDI Terus Maju.</em>
+                        </p>
+                        <p class="text-muted small mb-2">
+                            Selamat datang di portal resmi Ikatan Dokter Indonesia (IDI) Wilayah Kepulauan Riau. Media ini hadir untuk memperkuat koordinasi organisasi, pengembangan keprofesian berkelanjutan (P2KB), serta kemudahan layanan bagi seluruh sejawat dokter di 7 kabupaten/kota se-Kepulauan Riau.
+                        </p>
+                        <p class="text-muted small mb-0">
+                            Di tengah tantangan geografis wilayah kepulauan dan perbatasan, kami berkomitmen menjaga marwah profesi, memperjuangkan perlindungan serta kesejahteraan dokter, dan terus bersinergi meningkatkan derajat kesehatan masyarakat.
                         </p>
                         <hr class="text-muted opacity-25 my-3">
-                        <p class="fw-semibold text-success mb-0">dr. Dino G Prihadianto, SpOG M,Kes, SH, MH, FMAS, FAGS, FISOG</p>
+                        <p class="fw-semibold text-success mb-0">dr. Yanuarman, Sp.OG, Subsp. K.FM</p>
                     </div>
                 </div>
             </div>
 
             <!-- Application Drawer -->
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card h-100 border-0 shadow-sm p-4 rounded-4">
                     <div class="card-body">
                         <h5 class="fw-bold mb-4"><i class="bi bi-grid-3x3-gap-fill text-success me-2"></i>Layanan Cepat (Drawer)</h5>
@@ -428,14 +425,102 @@
         </section>
 
         <!-- SECTION 2: INFO SECTION MASONRY WITH JAVASCRIPT LOOPING -->
-        <section class="container mb-5">
+        <section class="container mb-2">
                         
             <!-- Wadah Grid Masonry -->
             <div id="masonryContainer" class="masonry-grid">
                 <!-- Elemen Card akan disuntikkan secara dinamis di sini oleh JavaScript -->
             </div>
         </section>
+        <section id="cabang" class="py-4 bg-white border-top rounded-4">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h3 class="fw-bold">Struktur IDI Cabang se-Kepulauan Riau</h3>
+                <p class="text-muted">Menaungi seluruh sejawat dokter di 7 Kabupaten/Kota</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Batam</h6>
+                                <small class="text-muted">Kota Batam</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Tanjungpinang</h6>
+                                <small class="text-muted">Kota Tanjungpinang</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Bintan</h6>
+                                <small class="text-muted">Kabupaten Bintan</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Karimun</h6>
+                                <small class="text-muted">Kabupaten Karimun</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Lingga</h6>
+                                <small class="text-muted">Kabupaten Lingga</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Natuna</h6>
+                                <small class="text-muted">Kabupaten Natuna</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card border rounded-3 bg-light">
+                        <div class="card-body py-3 d-flex align-items-center justify-content-md-center">
+                            <i class="bi bi-hospital text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="fw-bold mb-0">IDI Cabang Kepulauan Anambas</h6>
+                                <small class="text-muted">Kabupaten Kepulauan Anambas</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
+    
 	<!-- MODAL GENERAL FULLSCREEN REUSABLE -->
     <div class="modal fade" id="generalFullscreenModal" data-bs-backdrop="false" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
@@ -624,10 +709,11 @@
         </div>
     </div>
 </div>
-    <footer class="text-center">
-        <div class="container">
-            <p class="mb-1 small">&copy; 2026 Ikatan Dokter Indonesia (IDI) Cabang Kota Batam. All Rights Reserved.</p>
-            <p class="mb-0 text-muted xs-small" style="font-size: 0.8rem;">Dibuat menggunakan Bootstrap 5 & JavaScript Masonry Grid Layout.</p>
+    <footer class="text-white py-4" style="background-color: var(--primary-color);">
+        <div class="container text-center">
+            <p class="fw-bold mb-1">Ikatan Dokter Indonesia (IDI) Wilayah Kepulauan Riau</p>
+            <small class="text-light opacity-75 d-block mb-2">Menjunjung Tinggi Sumpah Dokter & Kode Etik Kedokteran Indonesia (KODEKI)</small>
+            <small class="text-info">&copy; 2026 IDI Wilayah Kepulauan Riau. All Rights Reserved.</small>
         </div>
     </footer>
 
